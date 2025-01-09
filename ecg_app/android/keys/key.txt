@@ -1,0 +1,23 @@
+keytool -genkey -v -keystore ~/upload-keystore.jks -keyalg RSA -keysize 2048 -validity 10000 -alias upload
+Enter keystore password:  12345678
+Re-enter new password: 12345678
+Enter the distinguished name. Provide a single dot (.) to leave a sub-component empty or press ENTER to use the default value in braces.
+What is your first and last name?
+  [Unknown]:  john joseph
+What is the name of your organizational unit?
+  [Unknown]:  uvj
+What is the name of your organization?
+  [Unknown]:  uvj
+What is the name of your City or Locality?
+  [Unknown]:  thiruvananthapuram
+What is the name of your State or Province?
+  [Unknown]:  kerala
+What is the two-letter country code for this unit?
+  [Unknown]:  in
+Is CN=john joseph, OU=uvj, O=uvj, L=thiruvananthapuram, ST=kerala, C=in correct?
+  [no]:  yes
+
+Generating 2,048 bit RSA key pair and self-signed certificate (SHA384withRSA) with a validity of 10,000 days
+	for: CN=john joseph, OU=uvj, O=uvj, L=thiruvananthapuram, ST=kerala, C=in
+[Storing /home/john/upload-keystore.jks]
+
